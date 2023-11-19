@@ -43,7 +43,7 @@ extension DailyScrum {
     }
     
     static var emptyScrum: DailyScrum {
-        .init(title: "", attendees: [], lengthInMinutes: 5, theme: .sky)
+        .init(title: "", attendees: [], lengthInMinutes: 5, theme: .purple)
     }
 }
 
@@ -53,14 +53,14 @@ extension DailyScrum {
         DailyScrum(title: "Design",
                    attendees: ["Cathy", "Daisy", "Simon", "Jonathan"],
                    lengthInMinutes: 10,
-                   theme: .yellow),
+                   theme: .cyan),
         DailyScrum(title: "App Dev",
                    attendees: ["Katie", "Gray", "Euna", "Luis", "Darla"],
                    lengthInMinutes: 5,
-                   theme: .orange),
+                   theme: .purple),
         DailyScrum(title: "Web Dev",
                    attendees: ["Chella", "Chris", "Christina", "Eden", "Karla", "Lindsey", "Aga", "Chad", "Jenn", "Sarah"],
                    lengthInMinutes: 5,
-                   theme: .poppy)
+                   theme: .orange)
     ]
 }
